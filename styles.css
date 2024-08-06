@@ -1,0 +1,29 @@
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#main-container > #green-box{
+    height: 600px;
+    width: 200px;
+    background-color: #007A5E;
+}
+#main-container > #inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 200px;
+    background-color: #CE1126;
+}
+#main-container > #yellow-box{
+    height: 600px;
+    width: 200px;
+    background-color: #FCD116;
+}
